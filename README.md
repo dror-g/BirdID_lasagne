@@ -26,6 +26,11 @@ Within each .py file, you can find the constants at the top to specify the numbe
 
 To save network parameters as a .npy file after training, pass a single command line argument to use as the file's name. (these files can be several hundred MB in size depending on the network architecture)
 
+Predict:
+----------
+
+python -u predict.py -c sx3_ffc_predict -r state_ffc.npy
+
 Results:
 ----------
 These networks were used to classify photos of 9 species of birds. The dataset had a minimum of 98 images per category.

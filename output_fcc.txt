@@ -1,0 +1,19 @@
+Using gpu device 0: GRID K520 (CNMeM is disabled)
+Using the configuration from sx3_ffc.py
+Network parameters will be saved as state_ffc.npy
+Loading images
+Compiling theano functions
+Starting training...
+Epoch: 1, train_loss=8.114935, train_accuracy=0.496250, valid_loss=7.837442, valid_accuracy=0.513750, time=99.410669s
+Epoch: 2, train_loss=2.787550, train_accuracy=0.486563, valid_loss=0.696334, valid_accuracy=0.492500, time=99.053520s
+Epoch: 3, train_loss=0.687484, train_accuracy=0.550625, valid_loss=0.670604, valid_accuracy=0.550000, time=98.871532s
+Epoch: 4, train_loss=0.658708, train_accuracy=0.598125, valid_loss=0.643845, valid_accuracy=0.623750, time=98.860399s
+Epoch: 5, train_loss=0.603631, train_accuracy=0.672813, valid_loss=0.573046, valid_accuracy=0.682500, time=98.846866s
+Epoch: 6, train_loss=0.543929, train_accuracy=0.718750, valid_loss=0.517085, valid_accuracy=0.736250, time=98.852629s
+Epoch: 7, train_loss=0.455912, train_accuracy=0.775000, valid_loss=0.446981, valid_accuracy=0.805000, time=98.870737s
+Epoch: 8, train_loss=0.400371, train_accuracy=0.821562, valid_loss=0.342298, valid_accuracy=0.853750, time=98.834359s
+Epoch: 9, train_loss=0.307864, train_accuracy=0.873125, valid_loss=0.318258, valid_accuracy=0.880000, time=98.871973s
+Epoch: 10, train_loss=0.241435, train_accuracy=0.904687, valid_loss=0.238602, valid_accuracy=0.913750, time=98.853748s
+Epoch: 11, train_loss=0.202701, train_accuracy=0.920937, valid_loss=0.221138, valid_accuracy=0.933750, time=98.848959s
+Epoch: 12, train_loss=0.161438, train_accuracy=0.941562, valid_loss=0.164964, valid_accuracy=0.945000, time=98.840295s
+Attempting to save network parameters as state_ffc.npy
