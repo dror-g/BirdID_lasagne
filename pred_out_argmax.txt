@@ -1,0 +1,2 @@
+Using the configuration from sx3_ffc_predict.py
+Loading images
