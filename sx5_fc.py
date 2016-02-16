@@ -16,7 +16,7 @@ from random import randint
 RATIO = 0.6 # The ratio of the data set to use for training
 PER_CATEGORY = 98 # Images to be used per category (training + validation)
 CATEGORIES = 9 # Number of categories present in the data folder
-DIR = "../wholedataset" # Path to folder
+DIR = "../images" # Path to folder
 TYPE = ".jpg" # Extension of the images in the subfolders
 
 DIM = 128 # Input to the network (images are resized to be square)

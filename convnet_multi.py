@@ -29,7 +29,7 @@ def validate(batch_size, batch_num, X_valid, y_valid, num):
 
 PER_CATEGORY = 98
 CATEGORIES = 9
-DIR = "./wholedataset"
+DIR = "./images"
 
 folders = os.listdir(DIR)
 features1 = ( )

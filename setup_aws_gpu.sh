@@ -6,3 +6,4 @@ sudo apt-get install git
 sudo pip install -r https://raw.githubusercontent.com/Lasagne/Lasagne/v0.1/requirements.txt
 sudo pip install Lasagne==0.1
 sudo pip install -U scikit-learn
+sudo pip install Pillow
