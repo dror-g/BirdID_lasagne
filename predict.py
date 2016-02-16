@@ -256,6 +256,8 @@ for epoch_num in range(num_epochs):
         loss, probabilities_batch = valid_fn(X_batch, y_batch)
         #valid_losses.append(loss)
         list_of_probabilities_batch.append(probabilities_batch)
+        print("prob_batch:")
+        print(probabilities_batch)
 
     #valid_loss = np.mean(valid_losses)
     # concatenate probabilities for each batch into a matrix
@@ -268,10 +270,12 @@ for epoch_num in range(num_epochs):
     total_time = time.time() - start_time
     #print("Epoch: %d, train_loss=%f, train_accuracy=%f, valid_loss=%f, valid_accuracy=%f, time=%fs"
     #      % (epoch_num + 1, train_loss, train_accuracy, valid_loss, accuracy, total_time))
-    print("predicted")
-    print(predicted_classes)
-    print("expected")
-    print(y_valid)
+    #print("prob_batch:")
+    #print(probabilities_batch)
+    #print("predicted")
+    #print(predicted_classes)
+    #print("expected")
+    #print(y_valid)
 
 # Save network if specified
 if SAVE:
